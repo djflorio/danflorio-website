@@ -12,3 +12,18 @@
   color: #c9d4c7;
   font-size: 30px;
 }
+
+.about__subheader {
+  color: #b0bbaf;
+  display: inline-block;
+}
+
+.about__input {
+  margin: 0 5px;
+  font-size: 18px;
+  width: 256px;
+  border-style: none;
+  background-color: transparent;
+  border-bottom: solid 2px #b0bbaf;
+  color: #b0bbaf;
+}
