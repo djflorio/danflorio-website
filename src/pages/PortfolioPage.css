@@ -1,0 +1,17 @@
+.portfolio-page__header {
+  display: inline-block;
+  margin: 20px 10px 0 0;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.portfolio-page__description {
+  display: inline-block;
+  margin: 0;
+}
+
+hr.portfolio-page__divider {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}

@@ -1,0 +1,14 @@
+.about {
+  position: relative;
+  margin-top: 600px;
+  z-index: 1;
+  padding: 70px;
+  background-color: #2e352e;
+}
+
+.about__header {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  color: #c9d4c7;
+  font-size: 30px;
+}

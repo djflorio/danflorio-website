@@ -1,0 +1,72 @@
+.portfolio {
+  list-style: none;
+  padding: 0;
+}
+
+.portfolio__item {
+  position: relative;
+  transition: 0.3s;
+  background-color: #9bafa0;
+  min-height: 150px;
+  border-radius: 5px;
+  color: #262927;
+  margin: 10px 0;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.portfolio__left {
+  width: 120px;
+  vertical-align: top;
+}
+
+.portfolio__img {
+  width: 120px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px #333333;
+}
+
+.portfolio__info {
+  vertical-align: top;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.portfolio__name {
+  margin: 0;
+  display: inline-block;
+}
+
+.portfolio__description {
+  margin: 0;
+}
+
+.portfolio__tech-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.portfolio__tech {
+  display: inline-block;
+  margin-right: 5px;
+  background-color: #262927;
+  color: #9bafa0;
+  padding: 2px 4px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.portfolio__link {
+  text-decoration: none;
+  color: #1f3623;
+  text-transform: uppercase;
+  text-align: center;
+  color: #262927;
+  margin: 0 5px;
+  font-size: 12px;
+}
+
+.portfolio__link:hover {
+  background-color: #8da091;
+}
