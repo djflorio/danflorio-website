@@ -4,6 +4,17 @@
   z-index: 1;
   padding: 70px;
   background-color: #2e352e;
+  background-image: url('./img/gear2.png');
+  background-size: 700px;
+  background-repeat: no-repeat;
+}
+
+.about__section-1 {
+  text-align: left;
+}
+
+.about__section-2 {
+  text-align: right;
 }
 
 .about__header {

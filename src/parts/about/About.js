@@ -9,25 +9,45 @@ class About extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      verb: "create things with React"
+      gearY: 50
     }
 
-    this.onChange = this.onChange.bind(this);
+    this.handleScroll = this.handleScroll.bind(this);
   }
 
-  onChange(e) {
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  }
+
+  handleScroll(e) {
+    let scrollTop = e.srcElement.body.scrollTop;
+    let itemTranslate = Math.min(0, scrollTop/3 - 60);
+
     this.setState({
-      verb: e.target.value
+      gearyY: 50-itemTranslate
     });
+    console.log(scrollTop);
   }
 
   render() {
     return (
-      <section className="about">
-        <h1 className="about__header">I like to {this.state.verb}.</h1>
-        <h3 className="about__subheader">But I can</h3>
-        <input className="about__input" type="text" onChange={this.onChange} placeholder="do whatever you need me to do" />
-        <h3 className="about__subheader">.</h3>
+      <section className="about" style={{ backgroundPosition: '50px 50px' }}>
+        <div className="about__section-1">
+          <h1 className="about__header">I like to create things with...</h1>
+          <h2 className="about__subheader">
+            Javascript, PHP, Python, and Java
+          </h2>
+        </div>
+        <div className="about__section-2">
+          <h1 className="about__header">...using tools like...</h1>
+          <h2 className="about__subheader">
+            React, Redux, JQuery, Angular, Wordpress, Django, LibGDX
+          </h2>
+        </div>
       </section>
     );
   }
