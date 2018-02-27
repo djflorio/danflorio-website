@@ -18,7 +18,7 @@ export const items = [
   {
     id: 5,
     name: "The Diner: iOs App",
-    img: "dinerios2.png",
+    img: "dinerios.png",
     link: "https://itunes.apple.com/us/app/the-diner-orderup-music-search/id984731536?mt=8",
     tech: "iOs, Swift",
     description: "The Diner is an original music library that specializes in quick music searches. This iOs app allows you to explain your music search in an audio message, which is then sent directly to The Diner. They listen to the request, and email you with an extensive list of handpicked tracks."
