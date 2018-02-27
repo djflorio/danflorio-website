@@ -10,7 +10,7 @@ class Portfolio extends React.Component {
     super(props);
 
     this.state = {
-      selectedItem: null
+      selectedItem: items[0]
     }
 
     this.selectItem = this.selectItem.bind(this);
