@@ -1,7 +1,44 @@
 .music {
   background-color: #76968c;
+  color: #000000ad;
+  background-image: url('./img/note.png');
+  background-size: 400px;
 }
 
 .music__header {
   font-size: 30px;
 }
+
+.music__links-container {
+  text-align: right;
+}
+
+.music__links {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.music__link {
+  display: inline-block;
+  height: 40px;
+  margin: 10px;
+}
+
+.music__link-img {
+  height: 100%;
+  opacity: 0.7;
+}
+
+.music__itunes {
+  margin-bottom: 7px;
+}
+
+.music__spotify {
+  margin-bottom: 3px;
+}
+
+.music__pandora {
+  margin-bottom: -2px;
+}
+

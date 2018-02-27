@@ -13,7 +13,8 @@ class App extends Component {
 
     this.state = {
       gearShift: 500,
-      bracketShift: -850
+      bracketShift: -850,
+      noteShift: -600
     }
 
     this.handleScroll = this.handleScroll.bind(this);
@@ -31,10 +32,12 @@ class App extends Component {
     let scrollTop = e.target.scrollingElement.scrollTop;
     let gearTranslate = 300 - (400 * scrollTop) / 600;
     let bracketTranslate = -850 + (200 * scrollTop) / 200;
+    let noteTranslate = -600 + (200 * scrollTop) / 600;
 
     this.setState({
       gearShift: gearTranslate,
-      bracketShift: bracketTranslate
+      bracketShift: bracketTranslate,
+      noteShift: noteTranslate
     });
   }
 
@@ -44,7 +47,7 @@ class App extends Component {
         <Hero />
         <About gearShift={this.state.gearShift}/>
         <Portfolio bracketShift={this.state.bracketShift}/>
-        <Music />
+        <Music noteShift={this.state.noteShift}/>
       </div>
     );
   }
