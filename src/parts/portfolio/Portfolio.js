@@ -24,7 +24,7 @@ class Portfolio extends React.Component {
 
   render() {
     return (
-      <div className="portfolio" style={{ backgroundPosition: `${this.props.bracketShift}px 50px` }}>
+      <section className="portfolio" style={{ backgroundPosition: `${this.props.bracketShift}px 50px` }}>
         <h1 className="portfolio__header">
           Some of those things include...
         </h1>
@@ -67,7 +67,7 @@ class Portfolio extends React.Component {
           }
         </div>
         }
-      </div>
+      </section>
     );
   }
 }

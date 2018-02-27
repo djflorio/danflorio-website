@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Hero from './parts/hero/Hero';
 import About from './parts/about/About';
 import Portfolio from './parts/portfolio/Portfolio';
+import Music from './parts/music/Music';
 
 class App extends Component {
 
@@ -42,6 +43,7 @@ class App extends Component {
         <Hero />
         <About gearShift={this.state.gearShift}/>
         <Portfolio bracketShift={this.state.bracketShift}/>
+        <Music />
       </div>
     );
   }
