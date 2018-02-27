@@ -9,13 +9,16 @@ import faFacebook from '@fortawesome/fontawesome-free-brands/faFacebook';
 const Footer = () => {
   return (
     <section className="footer">
-      <a href="https://www.github.com/djflorio" target="_blank">
+      <a href="https://www.github.com/djflorio" target="_blank"
+        rel="noopener noreferrer">
         <FontAwesomeIcon className="footer__link" icon={faGithub} />
       </a>
-      <a href="https://www.linkedin.com/in/danflorio" target="_blank">
+      <a href="https://www.linkedin.com/in/danflorio" target="_blank"
+        rel="noopener noreferrer">
         <FontAwesomeIcon className="footer__link" icon={faLinkedin} />
       </a>
-      <a href="https://www.facebook.com/dan.florio" target="_blank">
+      <a href="https://www.facebook.com/dan.florio" target="_blank"
+        rel="noopener noreferrer">
         <FontAwesomeIcon className="footer__link" icon={faFacebook} />
       </a>
       <p className="footer__text">

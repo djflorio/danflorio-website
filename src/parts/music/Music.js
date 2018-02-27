@@ -18,7 +18,7 @@ const Music = ({noteShift}) => {
             return (
               <li key={link.id} className="music__link">
                 <a href={link.link} target="_blank">
-                  <img className={"music__link-img " + link.class} src={img} />
+                  <img className={"music__link-img " + link.class} src={img} alt={link.link} />
                 </a>
               </li>
             )

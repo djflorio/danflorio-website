@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import './Portfolio.css';
 
@@ -36,10 +35,11 @@ class Portfolio extends React.Component {
               <div key={item.id} className="portfolio__item">
                 <img
                   className={classnames('portfolio__img', {
-                    'portfolio__img--active': this.state.selectedItem && this.state.selectedItem.id == item.id
+                    'portfolio__img--active': this.state.selectedItem && this.state.selectedItem.id === item.id
                   })}
                   src={img}
                   onClick={() => {this.selectItem(item)}}
+                  alt={item.name}
                 />
               </div>
             )

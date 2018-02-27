@@ -1,9 +1,6 @@
 import React from 'react';
 import './About.css';
 
-import { real, fake } from '../portfolio/PortfolioItems';
-import Portfolio from '../portfolio/Portfolio';
-
 const About = ({gearShift}) => {
   return (
     <section className="about App__section" style={{ backgroundPosition: `50px ${gearShift}px` }}>

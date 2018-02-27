@@ -11,7 +11,7 @@ const Contact = ({mailShift}) => {
         You can send me an email at...
       </h1>
       <div className="contact__email-container">
-        <img className="contact__email" src={email} />
+        <img className="contact__email" src={email} alt="dee-ef-el-oh-at-dan-florio-dot-com" />
       </div>
       <h1 className="contact__outro">
         ...for business or for a chat.

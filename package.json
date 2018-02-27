@@ -2,6 +2,7 @@
   "name": "danflorio2018",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://www.danflorio.com",
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.4",
     "@fortawesome/fontawesome-free-brands": "^5.0.7",
