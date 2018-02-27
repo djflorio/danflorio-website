@@ -24,18 +24,19 @@ class About extends React.Component {
   }
 
   handleScroll(e) {
-    let scrollTop = e.srcElement.body.scrollTop;
-    let itemTranslate = Math.min(0, scrollTop/3 - 60);
+    let scrollTop = e.target.scrollingElement.scrollTop;
+    // When scrollTop = 600, gearY should equal 50
+    // So, x/600 = y/50   50x/600 = y (value to subtract from 100)
+    let itemTranslate = 300 - (400 * scrollTop) / 600;
 
     this.setState({
-      gearyY: 50-itemTranslate
+      gearY: itemTranslate
     });
-    console.log(scrollTop);
   }
 
   render() {
     return (
-      <section className="about" style={{ backgroundPosition: '50px 50px' }}>
+      <section className="about" style={{ backgroundPosition: `50px ${this.state.gearY}px` }}>
         <div className="about__section-1">
           <h1 className="about__header">I like to create things with...</h1>
           <h2 className="about__subheader">

@@ -2,16 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './Portfolio.css';
 
+import { items } from './PortfolioItems';
+
 const pixel = require('./img/pixel.png');
 
 class Portfolio extends React.Component {
   constructor(props) {
     super(props);
-
-    this.state = {
-      panelOpen: false,
-      panelItem: {}
-    }
   }
 
   render() {
@@ -19,7 +16,7 @@ class Portfolio extends React.Component {
       <div>
         <div className="portfolio">
           {
-            this.props.items.map(item => {
+            items.map(item => {
               const img = require('./img/' + item.img);
               return (
                 <table
@@ -62,10 +59,6 @@ class Portfolio extends React.Component {
       </div>
     );
   }
-}
-
-Portfolio.propTypes = {
-  items: PropTypes.array.isRequired
 }
 
 export default Portfolio;

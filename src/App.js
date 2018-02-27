@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Hero from './parts/hero/Hero';
 import About from './parts/about/About';
+import Portfolio from './parts/portfolio/Portfolio';
 
 class App extends Component {
   render() {
@@ -9,6 +10,7 @@ class App extends Component {
       <div className="App">
         <Hero />
         <About />
+        <Portfolio />
       </div>
     );
   }
