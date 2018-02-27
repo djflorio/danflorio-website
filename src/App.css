@@ -4,3 +4,9 @@
   padding: 70px;
   background-repeat: no-repeat;
 }
+
+@media (max-width: 600px) {
+  .App__section {
+    padding: 50px 25px;
+  }
+}

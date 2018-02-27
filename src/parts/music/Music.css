@@ -42,3 +42,8 @@
   margin-bottom: -2px;
 }
 
+@media (max-width: 600px) {
+  .music__header {
+    font-size: 25px;
+  }
+}

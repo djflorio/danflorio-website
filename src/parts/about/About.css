@@ -34,3 +34,13 @@
   border-bottom: solid 2px #b0bbaf;
   color: #b0bbaf;
 }
+
+@media (max-width: 600px) {
+  .about__header {
+    font-size: 25px;
+  }
+
+  .about__subheader {
+    font-size: 15px;
+  }
+}

@@ -22,3 +22,16 @@
     font-size: 30px;
     text-align: right;
 }
+
+@media (max-width: 600px) {
+
+    .contact__header,
+    .contact__outro {
+        font-size: 25px;
+    }
+
+    .contact__email {
+        width: 100%;
+        height: auto;
+    }
+}

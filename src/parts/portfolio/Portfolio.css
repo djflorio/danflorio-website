@@ -64,3 +64,9 @@
   background-color: #333333;
   color: #ebe4a6;
 }
+
+@media (max-width: 600px) {
+  .portfolio__header {
+    font-size: 25px;
+  }
+}
