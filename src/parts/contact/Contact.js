@@ -1,12 +1,12 @@
 import React from 'react';
 import './Contact.css';
 
-const Contact = () => {
+const Contact = ({mailShift}) => {
 
   const email = require('./email.png');
 
   return (
-    <section className="contact App__section">
+    <section className="contact App__section" style={{ backgroundPosition: `${mailShift}px 50px` }}>
       <h1 className="contact__header">
         You can send me an email at...
       </h1>

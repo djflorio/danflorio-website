@@ -15,7 +15,8 @@ class App extends Component {
     this.state = {
       gearShift: 500,
       bracketShift: -850,
-      noteShift: -600
+      noteShift: -600,
+      mailShift: -400
     }
 
     this.handleScroll = this.handleScroll.bind(this);
@@ -34,11 +35,13 @@ class App extends Component {
     let gearTranslate = 300 - (400 * scrollTop) / 600;
     let bracketTranslate = -850 + (200 * scrollTop) / 200;
     let noteTranslate = -600 + (200 * scrollTop) / 600;
+    let mailTranslate = -600 + (300 * scrollTop) / 500;
 
     this.setState({
       gearShift: gearTranslate,
       bracketShift: bracketTranslate,
-      noteShift: noteTranslate
+      noteShift: noteTranslate,
+      mailShift: mailTranslate
     });
   }
 
@@ -49,7 +52,7 @@ class App extends Component {
         <About gearShift={this.state.gearShift}/>
         <Portfolio bracketShift={this.state.bracketShift}/>
         <Music noteShift={this.state.noteShift}/>
-        <Contact />
+        <Contact mailShift={this.state.mailShift}/>
       </div>
     );
   }

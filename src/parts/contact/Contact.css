@@ -1,6 +1,7 @@
 .contact {
     background-color: #384055;
     color: #c0cedf;
+    background-image: url('./envelope.png');
 }
 
 .contact__header {
