@@ -1,0 +1,21 @@
+.contact {
+    background-color: #384055;
+    color: #c0cedf;
+}
+
+.contact__header {
+    font-size: 30px;
+}
+
+.contact__email-container {
+    text-align: center;
+}
+
+.contact__email {
+    height: 70px;   
+}
+
+.contact__outro {
+    font-size: 30px;
+    text-align: right;
+}

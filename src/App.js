@@ -5,6 +5,7 @@ import Hero from './parts/hero/Hero';
 import About from './parts/about/About';
 import Portfolio from './parts/portfolio/Portfolio';
 import Music from './parts/music/Music';
+import Contact from './parts/contact/Contact';
 
 class App extends Component {
 
@@ -48,6 +49,7 @@ class App extends Component {
         <About gearShift={this.state.gearShift}/>
         <Portfolio bracketShift={this.state.bracketShift}/>
         <Music noteShift={this.state.noteShift}/>
+        <Contact />
       </div>
     );
   }
