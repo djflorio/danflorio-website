@@ -25,8 +25,6 @@ class About extends React.Component {
 
   handleScroll(e) {
     let scrollTop = e.target.scrollingElement.scrollTop;
-    // When scrollTop = 600, gearY should equal 50
-    // So, x/600 = y/50   50x/600 = y (value to subtract from 100)
     let itemTranslate = 300 - (400 * scrollTop) / 600;
 
     this.setState({

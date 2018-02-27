@@ -1,72 +1,70 @@
 .portfolio {
-  list-style: none;
-  padding: 0;
+  position: relative;
+  padding: 70px;
+  background-color: #ebe4a6;
+  background-image: url('./img/brackets2.png');
+  background-size: 800px;
+  background-repeat: no-repeat;
+  z-index: 1;
+  color: #333333;
 }
+
+.portfolio__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+
+.portfolio__list {
+  clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+.portfolio__list:before,
+.portfolio__list:after { content:""; display:table; }
+.portfolio__list:after { clear:both;}
+.portfolio__list { zoom:1; /* For IE 6/7 */ }
 
 .portfolio__item {
-  position: relative;
-  transition: 0.3s;
-  background-color: #9bafa0;
-  min-height: 150px;
-  border-radius: 5px;
-  color: #262927;
-  margin: 10px 0;
-  padding: 15px;
-  box-sizing: border-box;
+  display: block;
+	float:left;
+  margin: 1% 0 1% 1.6%;
+  width: 18.72%;
 }
-
-.portfolio__left {
-  width: 120px;
-  vertical-align: top;
-}
+.portfolio__item:first-child { margin-left: 0; }
 
 .portfolio__img {
-  width: 120px;
-  border-radius: 5px;
-  box-shadow: 0px 0px 4px #333333;
-}
-
-.portfolio__info {
-  vertical-align: top;
-  padding-left: 10px;
   width: 100%;
+  box-shadow: 0 0 4px #333333;
+  cursor: pointer;
 }
 
-.portfolio__name {
-  margin: 0;
+.portfolio__img:hover {
+  box-shadow: 0 0 8px #ffffff;
+}
+
+.portfolio__selected-description {
+  font-size: 20px;
+}
+
+.portfolio__selected-link {
   display: inline-block;
-}
-
-.portfolio__description {
-  margin: 0;
-}
-
-.portfolio__tech-list {
-  list-style: none;
-  padding: 0;
-  margin: 10px 0;
-}
-
-.portfolio__tech {
-  display: inline-block;
-  margin-right: 5px;
-  background-color: #262927;
-  color: #9bafa0;
-  padding: 2px 4px;
-  border-radius: 5px;
-  font-size: 12px;
-}
-
-.portfolio__link {
   text-decoration: none;
-  color: #1f3623;
-  text-transform: uppercase;
-  text-align: center;
-  color: #262927;
-  margin: 0 5px;
-  font-size: 12px;
+  color: #333333;
+  border: solid 2px #333333;
+  padding: 10px 15px;
+  margin: 10px 10px 0 0;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  -moz-transition: 0.3s;
 }
 
-.portfolio__link:hover {
-  background-color: #8da091;
+.portfolio__selected-link:hover {
+  background-color: #333333;
+  color: #ebe4a6;
 }
