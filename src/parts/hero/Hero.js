@@ -3,7 +3,7 @@ import './Hero.css';
 
 const Hero = () => {
 
-  const video = require('./forest.mp4');
+  const video = require('./squares.mp4');
 
   return (
     <div className="hero">

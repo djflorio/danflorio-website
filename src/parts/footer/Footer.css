@@ -3,4 +3,16 @@
     padding: 40px;
     text-align: center;
     color: #ddcdcd;
+    position: relative;
+    z-index: 1;
+}
+
+.footer__link {
+    color: #ddcdcd;
+    font-size: 75px;
+    margin: 10px;
+}
+
+.footer__link:hover {
+    color: #7a7a7a;
 }
