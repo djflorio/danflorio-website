@@ -6,6 +6,7 @@ import About from './parts/about/About';
 import Portfolio from './parts/portfolio/Portfolio';
 import Music from './parts/music/Music';
 import Contact from './parts/contact/Contact';
+import Footer from './parts/footer/Footer';
 
 class App extends Component {
 
@@ -53,6 +54,7 @@ class App extends Component {
         <Portfolio bracketShift={this.state.bracketShift}/>
         <Music noteShift={this.state.noteShift}/>
         <Contact mailShift={this.state.mailShift}/>
+        <Footer />
       </div>
     );
   }
