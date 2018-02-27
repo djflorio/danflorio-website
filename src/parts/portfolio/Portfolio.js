@@ -24,7 +24,7 @@ class Portfolio extends React.Component {
 
   render() {
     return (
-      <section className="portfolio" style={{ backgroundPosition: `${this.props.bracketShift}px 50px` }}>
+      <section className="portfolio App__section" style={{ backgroundPosition: `${this.props.bracketShift}px 50px` }}>
         <h1 className="portfolio__header">
           Some of those things include...
         </h1>

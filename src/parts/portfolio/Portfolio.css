@@ -1,11 +1,7 @@
 .portfolio {
-  position: relative;
-  padding: 70px;
   background-color: #ebe4a6;
   background-image: url('./img/brackets2.png');
   background-size: 800px;
-  background-repeat: no-repeat;
-  z-index: 1;
   color: #333333;
 }
 

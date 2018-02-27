@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './App.css';
 
 import Hero from './parts/hero/Hero';
 import About from './parts/about/About';
@@ -11,7 +12,7 @@ class App extends Component {
     super(props);
 
     this.state = {
-      gearShift: 50,
+      gearShift: 500,
       bracketShift: -850
     }
 

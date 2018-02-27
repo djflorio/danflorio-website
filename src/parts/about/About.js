@@ -6,7 +6,7 @@ import Portfolio from '../portfolio/Portfolio';
 
 const About = ({gearShift}) => {
   return (
-    <section className="about" style={{ backgroundPosition: `50px ${gearShift}px` }}>
+    <section className="about App__section" style={{ backgroundPosition: `50px ${gearShift}px` }}>
       <div className="about__section-1">
         <h1 className="about__header">I like to create things with...</h1>
         <h2 className="about__subheader">
