@@ -16,7 +16,7 @@ const Music = ({noteShift}) => {
           links.map(link => {
             const img = require('./img/' + link.img);
             return (
-              <li className="music__link">
+              <li key={link.id} className="music__link">
                 <a href={link.link} target="_blank">
                   <img className={"music__link-img " + link.class} src={img} />
                 </a>
