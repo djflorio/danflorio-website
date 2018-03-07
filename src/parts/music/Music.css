@@ -69,4 +69,9 @@
   .music__header {
     font-size: 25px;
   }
+
+  .music__site-link {
+    font-size: 25px;
+    padding: 10px 20px;
+  }
 }
