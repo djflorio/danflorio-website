@@ -9,6 +9,11 @@ const Music = ({noteShift}) => {
       <span className="music__header-container">
         <h1 className="music__header">I also like to create music...</h1>
       </span>
+      <div className="music__site-link-container">
+        <a className="music__site-link" href="http://www.danfloriomusic.com" target="_blank">
+          www.danfloriomusic.com
+        </a>
+      </div>
       <span className="music__links-container">
         <h1 className="music__header">...which can be found on...</h1>
         <ul className="music__links">

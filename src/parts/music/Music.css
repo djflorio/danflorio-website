@@ -42,6 +42,29 @@
   margin-bottom: -2px;
 }
 
+.music__site-link-container {
+  text-align: center;
+}
+
+.music__site-link {
+  text-decoration: none;
+  font-size: 30px;
+  margin: auto;
+  display: inline-block;
+  border: solid #000000ad 3px;
+  color: #000000ad;
+  padding: 10px 40px;
+  transition: 0.3s;
+  -o-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -webkit-transition: 0.3s;
+}
+
+.music__site-link:hover {
+  background-color: #000000ad;
+  color: #76968c;
+}
+
 @media (max-width: 600px) {
   .music__header {
     font-size: 25px;
