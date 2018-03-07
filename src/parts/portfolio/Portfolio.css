@@ -10,22 +10,10 @@
 }
 
 .portfolio__list {
-  clear: both;
-	padding: 0px;
-	margin: 0px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
 }
-.portfolio__list:before,
-.portfolio__list:after { content:""; display:table; }
-.portfolio__list:after { clear:both;}
-.portfolio__list { zoom:1; /* For IE 6/7 */ }
-
-.portfolio__item {
-  display: block;
-	float:left;
-  margin: 1% 0 1% 1.6%;
-  width: 18.72%;
-}
-.portfolio__item:first-child { margin-left: 0; }
 
 .portfolio__img {
   width: 100%;
