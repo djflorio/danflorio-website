@@ -33,6 +33,15 @@ export const items = [
     description: "The Diner is an original music library that specializes in quick music searches. This iOs app allows you to explain your music search in an audio message, which is then sent directly to The Diner. They listen to the request, and email you with an extensive list of handpicked tracks."
   },
   {
+    id: 7,
+    name: "Layers of LÖVE",
+    img: "layers-bw.png",
+    link: "https://layers.danflorio.com/",
+    tech: "Lua, LÖVE",
+    code: "https://github.com/djflorio/layers-of-love2d",
+    description: "A quick game of timing. See how many layers you can jump through."
+  },
+  {
     id: 1,
     name: "Lights On",
     img: "lightson2.png",
