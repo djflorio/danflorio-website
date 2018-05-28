@@ -1,6 +1,6 @@
 .about {
-  margin-top: 600px;
-  background-color: #2e352e;
+  margin-top: 598px;
+  background-color: #a0978d;
   background-image: url('./img/gear2.png');
   background-size: 700px;
 }
@@ -16,12 +16,12 @@
 .about__header {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
-  color: #c9d4c7;
+  color: #f1e6d8;
   font-size: 30px;
 }
 
 .about__subheader {
-  color: #b0bbaf;
+  color: #e7e7e7;
   display: inline-block;
 }
 

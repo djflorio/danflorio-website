@@ -6,6 +6,8 @@
   left: 0;
   right: 0;
   background-image: url('trees.jpeg');
+  background-size: cover;
+  background-position: bottom;
 }
 
 .hero__overlay {
