@@ -8,9 +8,6 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="hero__overlay"></div>
-      <div className="hero__video-container">
-        <video className="hero__video" src={video} autoPlay loop></video>
-      </div>
       <div className="hero__info">
         <div className="hero__info-container">
           <h1 className="hero__title">Dan Florio</h1>

@@ -5,6 +5,7 @@
   top: 0;
   left: 0;
   right: 0;
+  background-image: url('trees.jpeg');
 }
 
 .hero__overlay {
@@ -15,18 +16,6 @@
   bottom: 0;
   background-color: #c0b0986b;
   z-index: 1;
-}
-
-.hero__video-container {
-  position: relative;
-  text-align: left;
-}
-
-.hero__video {
-  min-width: 100%; 
-  min-height: 100%;
-  width: auto;
-  height: auto;
 }
 
 .hero__info {
