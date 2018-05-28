@@ -36,7 +36,7 @@ export const items = [
     id: 7,
     name: "Layers of LÖVE",
     img: "layers-bw.png",
-    link: "https://layers.danflorio.com/",
+    link: "http://layers.danflorio.com/",
     tech: "Lua, LÖVE",
     code: "https://github.com/djflorio/layers-of-love2d",
     description: "A quick game of timing. See how many layers you can jump through."
