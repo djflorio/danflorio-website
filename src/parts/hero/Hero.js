@@ -2,9 +2,6 @@ import React from 'react';
 import './Hero.css';
 
 const Hero = () => {
-
-  const video = require('./squares.mp4');
-
   return (
     <div className="hero">
       <div className="hero__overlay"></div>
