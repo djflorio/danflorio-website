@@ -32,13 +32,16 @@ class Portfolio extends React.Component {
           items.map(item => {
             const img = require('./img/' + item.img);
             return (
-              <div key={item.id} className="portfolio__item">
+              <div key={item.id} className={classnames('portfolio__item', {
+                'portfolio__item--active': this.state.selectedItem && this.state.selectedItem.id === item.id
+              })}>
+                <div
+                  className="portfolio__item-overlay"
+                  onClick={() => {this.selectItem(item)}}>
+                </div>
                 <img
-                  className={classnames('portfolio__img', {
-                    'portfolio__img--active': this.state.selectedItem && this.state.selectedItem.id === item.id
-                  })}
+                  className='portfolio__img'
                   src={img}
-                  onClick={() => {this.selectItem(item)}}
                   alt={item.name}
                 />
               </div>

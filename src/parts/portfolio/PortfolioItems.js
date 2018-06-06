@@ -9,6 +9,15 @@ export const items = [
     description: "A website for the music I create. It uses React and Redux to manage a global audio player, complete with a visualizer, as well as a video modal."
   },
   {
+    id: 8,
+    name: "STRUM",
+    img: "strum.png",
+    link: "https://djflorio.github.io/strum/",
+    tech: "Javascript, P5.js",
+    code: "https://github.com/djflorio/strum",
+    description: "Brush your mouse across the strings to play a chord."
+  },
+  {
     id: 3,
     name: "The Music Playground: Official Site",
     img: "musicplayground.png",
