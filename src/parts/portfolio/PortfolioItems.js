@@ -5,8 +5,8 @@ export const items = [
     img: "danfloriomusic.png",
     link: "http://www.danfloriomusic.com",
     tech: "React, Redux, Javascript",
-    code: "https://github.com/djflorio/danfloriomusic-website",
-    description: "A website for the music I create. It uses React and Redux to manage a global audio player, complete with a visualizer, as well as a video modal."
+    code: "https://github.com/djflorio/music-site",
+    description: "A website for the music I create. It uses React and Redux to manage a global audio player, as well as a video modal."
   },
   {
     id: 8,
